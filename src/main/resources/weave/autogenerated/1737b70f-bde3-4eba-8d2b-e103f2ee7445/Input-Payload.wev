@@ -1,0 +1,16 @@
+%dw 2.0
+
+type auto_1737b70f_bde3_4eba_8d2b_e103f2ee7445_Input_Payload = {
+  flightCode: String, 
+  price: Number, 
+  ID?: Number, 
+  departureDate: String, 
+  airline: String, 
+  fromAirportCode: String, 
+  totalSeats?: Number, 
+  planeType?: String, 
+  toAirportCode: String, 
+  emptySeats: Number, 
+  _?: Any
+}
+
